@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Trading Bot - Workflow Pipeline</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #0f1117; color: #e1e4e8; min-height: 100vh; padding: 40px 20px; }
+  h1 { text-align: center; font-size: 28px; margin-bottom: 8px; background: linear-gradient(135deg, #58a6ff, #bc8cff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { text-align: center; color: #8b949e; margin-bottom: 40px; font-size: 14px; }
+  .pipeline { display: flex; flex-direction: column; align-items: center; gap: 0; max-width: 900px; margin: 0 auto; }
+  .node { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 20px 24px; width: 100%; max-width: 700px; position: relative; }
+  .node.data { border-color: #1f6feb; }
+  .node.process { border-color: #8957e5; }
+  .node.llm { border-color: #f0883e; }
+  .node.logic { border-color: #3fb950; }
+  .node.output { border-color: #58a6ff; }
+  .node-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .node-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; }
+  .node.data .node-icon { background: #1f6feb22; }
+  .node.process .node-icon { background: #8957e522; }
+  .node.llm .node-icon { background: #f0883e22; }
+  .node.logic .node-icon { background: #3fb95022; }
+  .node.output .node-icon { background: #58a6ff22; }
+  .node-title { font-weight: 600; font-size: 16px; }
+  .node-desc { color: #8b949e; font-size: 13px; line-height: 1.5; }
+  .node-details { background: #0d1117; border-radius: 8px; padding: 12px 16px; margin-top: 12px; font-family: 'Cascadia Code', 'Fira Code', monospace; font-size: 12px; color: #c9d1d9; line-height: 1.6; }
+  .connector { width: 2px; height: 32px; background: #30363d; position: relative; }
+  .connector::after { content: ''; position: absolute; bottom: -4px; left: -4px; width: 10px; height: 10px; border-left: 2px solid #30363d; border-bottom: 2px solid #30363d; transform: rotate(-45deg); }
+  .parallel-group { display: flex; gap: 20px; width: 100%; max-width: 700px; }
+  .parallel-group .node { flex: 1; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; margin-left: 8px; }
+  .badge.modify { background: #f0883e33; color: #f0883e; }
+  .badge.auto { background: #1f6feb33; color: #58a6ff; }
+  .scoring-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+  .scoring-table th, .scoring-table td { text-align: left; padding: 4px 8px; font-size: 12px; border-bottom: 1px solid #21262d; }
+  .scoring-table th { color: #8b949e; font-weight: 500; }
+  .scoring-table td.pos { color: #3fb950; }
+  .scoring-table td.neg { color: #f85149; }
+  .stats { display: flex; gap: 16px; margin-top: 40px; justify-content: center; flex-wrap: wrap; }
+  .stat { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px 24px; text-align: center; min-width: 140px; }
+  .stat-value { font-size: 24px; font-weight: 700; color: #58a6ff; }
+  .stat-label { font-size: 12px; color: #8b949e; margin-top: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Crypto Trading Bot Pipeline</h1>
+<p class="subtitle">Sharpe-Optimized Conservative Strategy | OpenRouter + Gemini 3 Flash Preview</p>
+
+<div class="pipeline">
+
+  <!-- Data Loading -->
+  <div class="parallel-group">
+    <div class="node data">
+      <div class="node-header">
+        <div class="node-icon">&#128202;</div>
+        <span class="node-title">Load Market Data</span>
+        <span class="badge auto">AUTO</span>
+      </div>
+      <div class="node-desc">crypto_features_3months.csv<br>513 rows &times; 22 columns (10 coins &times; ~57 days)</div>
+    </div>
+    <div class="node data">
+      <div class="node-header">
+        <div class="node-icon">&#128240;</div>
+        <span class="node-title">Load News Data</span>
+        <span class="badge auto">AUTO</span>
+      </div>
+      <div class="node-desc">crypto_news_3months.csv<br>50 articles (all 2026-02-13)</div>
+    </div>
+  </div>
+
+  <div class="connector"></div>
+
+  <!-- Process -->
+  <div class="node process">
+    <div class="node-header">
+      <div class="node-icon">&#128257;</div>
+      <span class="node-title">Group News by Date &amp; Merge</span>
+      <span class="badge auto">AUTO</span>
+    </div>
+    <div class="node-desc">Group news articles by date, merge with market data. Each row gets up to 3 relevant news snippets (200 chars each) or "No significant news today".</div>
+  </div>
+
+  <div class="connector"></div>
+
+  <!-- LLM Prompt -->
+  <div class="node llm">
+    <div class="node-header">
+      <div class="node-icon">&#129302;</div>
+      <span class="node-title">Build Enhanced LLM Prompt</span>
+      <span class="badge modify">CUSTOMIZED</span>
+    </div>
+    <div class="node-desc">Feed ALL 22 indicators with human-readable labels. Frame LLM as conservative risk analyst. Request 8 structured metrics.</div>
+    <div class="node-details">
+      Inputs: price, returns, volatility, MA7/20/50, RSI, MACD, BB, volume, news<br>
+      Pre-computed: MA crossover direction, RSI zone, BB zone, volatility level<br>
+      Output request: sentiment_score, market_mood, trend_strength,<br>
+      &nbsp;&nbsp;reversal_probability, risk_level, recommended_action, confidence, reasoning
+    </div>
+  </div>
+
+  <div class="connector"></div>
+
+  <!-- API Call -->
+  <div class="node llm">
+    <div class="node-header">
+      <div class="node-icon">&#9889;</div>
+      <span class="node-title">Call Gemini 3 Flash Preview</span>
+      <span class="badge auto">API</span>
+    </div>
+    <div class="node-desc">OpenRouter API &rarr; google/gemini-3-flash-preview | temp=0.3 | JSON mode | 3 retries with exponential backoff</div>
+  </div>
+
+  <div class="connector"></div>
+
+  <!-- Trading Logic -->
+  <div class="node logic">
+    <div class="node-header">
+      <div class="node-icon">&#9878;</div>
+      <span class="node-title">7-Component Scoring System</span>
+      <span class="badge modify">CUSTOMIZED</span>
+    </div>
+    <div class="node-desc">Composite score from -100 to +100 with asymmetric buy/sell thresholds.</div>
+    <table class="scoring-table">
+      <tr><th>Component</th><th>Weight</th><th>Buy Signal</th><th>Sell Signal</th></tr>
+      <tr><td>RSI</td><td>&plusmn;25</td><td class="pos">&lt;25: +25</td><td class="neg">&gt;70: -25</td></tr>
+      <tr><td>MACD Histogram</td><td>&plusmn;20</td><td class="pos">Positive: +20</td><td class="neg">Negative: -10</td></tr>
+      <tr><td>Bollinger Bands</td><td>&plusmn;20</td><td class="pos">BB&lt;0.1: +20</td><td class="neg">BB&gt;0.9: -20</td></tr>
+      <tr><td>LLM Sentiment</td><td>&plusmn;25</td><td class="pos">score*25</td><td class="neg">score*25</td></tr>
+      <tr><td>LLM Action</td><td>&plusmn;10</td><td class="pos">Buy: +10</td><td class="neg">Sell: -10</td></tr>
+      <tr><td>Volatility</td><td>-15 to 0</td><td>-</td><td class="neg">&gt;4.5%: -15</td></tr>
+      <tr><td>Reversal Prob</td><td>&plusmn;10</td><td class="pos">Bounce: +10</td><td class="neg">Top: -10</td></tr>
+    </table>
+    <div class="node-details">
+      Risk Gates: vol&gt;6% &rarr; hold | confidence&lt;0.4 &rarr; hold | extreme risk &rarr; sell<br>
+      Thresholds: BUY &ge;40 (conf&ge;0.5) | SELL &le;-30 | HOLD: default<br>
+      Emergency: RSI&gt;75 &rarr; sell | BB&gt;1.1 &rarr; sell
+    </div>
+  </div>
+
+  <div class="connector"></div>
+
+  <!-- Backtest -->
+  <div class="node process">
+    <div class="node-header">
+      <div class="node-icon">&#128200;</div>
+      <span class="node-title">Backtesting Engine</span>
+      <span class="badge auto">AUTO</span>
+    </div>
+    <div class="node-desc">$10,000 starting capital | 0.1% transaction fee | 10% allocation per buy | Track positions per coin | Calculate daily returns</div>
+  </div>
+
+  <div class="connector"></div>
+
+  <!-- Output -->
+  <div class="node output">
+    <div class="node-header">
+      <div class="node-icon">&#128190;</div>
+      <span class="node-title">Export Results</span>
+      <span class="badge auto">OUTPUT</span>
+    </div>
+    <div class="node-desc">trades_log.csv (date, ticker, price, decision, reason, sentiment, rsi, confidence)<br>Console: Sharpe Ratio, Total Return, Max Drawdown, Win Rate</div>
+  </div>
+
+</div>
+
+<div class="stats">
+  <div class="stat">
+    <div class="stat-value">513</div>
+    <div class="stat-label">Data Points</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">10</div>
+    <div class="stat-label">Coins</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">7</div>
+    <div class="stat-label">Score Components</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">5</div>
+    <div class="stat-label">Risk Gates</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">&plusmn;100</div>
+    <div class="stat-label">Score Range</div>
+  </div>
+</div>
+
+</body>
+</html>

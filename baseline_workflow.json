@@ -1,0 +1,161 @@
+{
+  "name": "Crypto Trading Bot - Baseline",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual_trigger",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 400]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://raw.githubusercontent.com/dryjins/aib/main/2026/l4/crypto_features_3months.csv",
+        "options": {}
+      },
+      "id": "load_features",
+      "name": "Load Market Data (GitHub)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 400]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://raw.githubusercontent.com/dryjins/aib/main/2026/l4/crypto_news_3months.csv",
+        "options": {}
+      },
+      "id": "load_news",
+      "name": "Load News Data (GitHub)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 600]
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first();\nlet text = '';\n\nif (typeof input.json === 'string') {\n  text = input.json;\n} else if (input.json.data) {\n  text = input.json.data;\n} else if (input.binary && input.binary.data) {\n  text = Buffer.from(input.binary.data.data, 'base64').toString('utf-8');\n} else {\n  text = JSON.stringify(input.json);\n}\n\nconst lines = text.split('\\n').filter(l => l.trim());\nif (lines.length === 0) {\n  throw new Error('Empty CSV data');\n}\n\nconst headers = lines[0].split(',').map(h => h.trim());\n\nconst result = [];\nfor (let i = 1; i < lines.length; i++) {\n  const line = lines[i];\n  if (!line.trim()) continue;\n  \n  const values = [];\n  let current = '';\n  let inQuotes = false;\n  \n  for (let char of line) {\n    if (char === '\"') {\n      inQuotes = !inQuotes;\n    } else if (char === ',' && !inQuotes) {\n      values.push(current.trim());\n      current = '';\n    } else {\n      current += char;\n    }\n  }\n  values.push(current.trim());\n  \n  const obj = {};\n  headers.forEach((h, idx) => {\n    obj[h] = values[idx] || '';\n  });\n  \n  result.push({ json: obj });\n}\n\nreturn result;"
+      },
+      "id": "parse_features",
+      "name": "Parse Market CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first();\nlet text = '';\n\nif (typeof input.json === 'string') {\n  text = input.json;\n} else if (input.json.data) {\n  text = input.json.data;\n} else if (input.binary && input.binary.data) {\n  text = Buffer.from(input.binary.data.data, 'base64').toString('utf-8');\n} else {\n  text = JSON.stringify(input.json);\n}\n\nconst lines = text.split('\\n').filter(l => l.trim());\nif (lines.length === 0) {\n  throw new Error('Empty CSV data');\n}\n\nconst headers = lines[0].split(',').map(h => h.trim());\n\nconst result = [];\nfor (let i = 1; i < lines.length; i++) {\n  const line = lines[i];\n  if (!line.trim()) continue;\n  \n  const values = [];\n  let current = '';\n  let inQuotes = false;\n  \n  for (let char of line) {\n    if (char === '\"') {\n      inQuotes = !inQuotes;\n    } else if (char === ',' && !inQuotes) {\n      values.push(current.trim());\n      current = '';\n    } else {\n      current += char;\n    }\n  }\n  values.push(current.trim());\n  \n  const obj = {};\n  headers.forEach((h, idx) => {\n    obj[h] = values[idx] || '';\n  });\n  \n  result.push({ json: obj });\n}\n\nreturn result;"
+      },
+      "id": "parse_news",
+      "name": "Parse News CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 600]
+    },
+    {
+      "parameters": {
+        "jsCode": "const newsByDate = {};\n\nfor (const item of $input.all()) {\n  const date = item.json.date;\n  if (!newsByDate[date]) {\n    newsByDate[date] = [];\n  }\n  newsByDate[date].push({\n    title: item.json.title || '',\n    body: item.json.body || ''\n  });\n}\n\nreturn [{ json: { newsByDate } }];"
+      },
+      "id": "group_news",
+      "name": "Group News by Date",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 600]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\n\nlet newsLookup = {};\nfor (const item of items) {\n  if (item.json.newsByDate) {\n    newsLookup = item.json.newsByDate;\n    break;\n  }\n}\n\nconst merged = [];\nfor (const item of items) {\n  if (item.json.newsByDate) continue;\n  \n  const date = item.json.date;\n  const news = newsLookup[date] || [];\n  \n  const newsText = news.length > 0 \n    ? news.map(n => `${n.title}: ${n.body.substring(0, 200)}`).slice(0, 3).join('\\n\\n')\n    : 'No significant news today';\n  \n  merged.push({\n    json: {\n      ...item.json,\n      news_text: newsText,\n      news_count: news.length\n    }\n  });\n}\n\nreturn merged;"
+      },
+      "id": "merge_data",
+      "name": "Merge Market + News",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1120, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\n\nconst prompt = `System: You are a cryptocurrency analyst. Output ONLY valid JSON (no markdown).\n\nDate: ${data.date}\nCoin: ${data.ticker}\n\nNews:\n${data.news_text}\n\nMarket Data:\n- Price: $${data.close}\n- RSI: ${data.rsi}\n- MACD: ${data.macd_hist}\n- BB Position: ${data.bb_position}\n\nOutput JSON:\n{\n  \"sentiment_score\": -1 to 1,\n  \"market_mood\": \"bullish/bearish/neutral\",\n  \"recommended_action\": \"buy/sell/hold\",\n  \"confidence\": 0 to 1,\n  \"reasoning\": \"text\"\n}`;\n\nreturn [{\n  json: {\n    ...data,\n    prompt: prompt\n  }\n}];"
+      },
+      "id": "build_prompt",
+      "name": "🎯 MODIFY: LLM Prompt",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1340, 400]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:11434/api/generate",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ {\"model\": \"martain7r/finance-llama-8b:q4_k_m\", \"prompt\": $json.prompt, \"stream\": false, \"format\": \"json\"} }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "call_llm",
+      "name": "Call Ollama LLM",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1560, 400],
+      "notes": "Finance model: martain7r/finance-llama-8b:q4_k_m"
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\n\nlet analysis;\ntry {\n  analysis = JSON.parse(data.response);\n} catch (e) {\n  analysis = {\n    sentiment_score: 0,\n    market_mood: \"neutral\",\n    recommended_action: \"hold\",\n    confidence: 0,\n    reasoning: \"LLM parse failed\"\n  };\n}\n\nreturn [{\n  json: {\n    date: data.date,\n    ticker: data.ticker,\n    price: parseFloat(data.close),\n    analysis: analysis,\n    indicators: {\n      rsi: parseFloat(data.rsi || 0),\n      macd_hist: parseFloat(data.macd_hist || 0),\n      bb_position: parseFloat(data.bb_position || 0),\n      volatility: parseFloat(data.volatility_7d || 0)\n    }\n  }\n}];"
+      },
+      "id": "parse_response",
+      "name": "Parse LLM Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1780, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "// ========================================\n// 🎯 STUDENTS: MODIFY THIS LOGIC\n// ========================================\n\nconst { analysis, indicators, date, ticker, price } = $input.first().json;\n\nconst sentiment = parseFloat(analysis.sentiment_score) || 0;\nconst rsi = parseFloat(indicators.rsi) || 0;\nconst bb_pos = parseFloat(indicators.bb_position) || 0;\n\nlet decision = \"hold\";\nlet reason = \"Neutral conditions\";\n\nif (sentiment > 0.5 && rsi < 70 && bb_pos < 0.8) {\n  decision = \"buy\";\n  reason = \"Positive sentiment + healthy RSI\";\n} else if (sentiment < -0.3 || rsi > 75) {\n  decision = \"sell\";\n  reason = \"Negative sentiment or overbought\";\n} else if (rsi > 85) {\n  decision = \"sell\";\n  reason = \"Emergency stop-loss (extreme overbought)\";\n}\n\nreturn [{\n  json: {\n    date: date || 'N/A', \n    ticker: ticker || 'N/A', \n    price: price || 0, \n    decision, \n    reason,\n    sentiment: sentiment.toFixed(3), \n    rsi: rsi.toFixed(2),\n    confidence: (parseFloat(analysis.confidence) || 0).toFixed(3)\n  }\n}];"
+      },
+      "id": "trading_logic",
+      "name": "🎯 MODIFY: Trading Logic",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2000, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "const trades = $input.all();\n\nconst buys = trades.filter(t => t.json.decision === 'buy').length;\nconst sells = trades.filter(t => t.json.decision === 'sell').length;\nconst holds = trades.filter(t => t.json.decision === 'hold').length;\n\nconst csvHeader = 'date,ticker,price,decision,reason,sentiment,rsi,confidence\\n';\nconst csvRows = trades.map(t => {\n  const j = t.json;\n  return `${j.date},${j.ticker},${j.price},${j.decision},\"${j.reason}\",${j.sentiment},${j.rsi},${j.confidence}`;\n}).join('\\n');\n\nconst csvContent = csvHeader + csvRows;\n\nreturn [{\n  json: {\n    total_trades: trades.length,\n    buys: buys,\n    sells: sells,\n    holds: holds,\n    message: `Backtest complete! ${buys} buys, ${sells} sells, ${holds} holds`\n  },\n  binary: {\n    data: {\n      data: Buffer.from(csvContent).toString('base64'),\n      mimeType: 'text/csv',\n      fileName: 'trades_log.csv'\n    }\n  }\n}];"
+      },
+      "id": "export_csv",
+      "name": "Export trades_log.csv",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2220, 400],
+      "notes": "Download CSV from execution output"
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          { "node": "Load Market Data (GitHub)", "type": "main", "index": 0 },
+          { "node": "Load News Data (GitHub)", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Load Market Data (GitHub)": { "main": [[{ "node": "Parse Market CSV" }]] },
+    "Load News Data (GitHub)": { "main": [[{ "node": "Parse News CSV" }]] },
+    "Parse Market CSV": { "main": [[{ "node": "Merge Market + News" }]] },
+    "Parse News CSV": { "main": [[{ "node": "Group News by Date" }]] },
+    "Group News by Date": { "main": [[{ "node": "Merge Market + News" }]] },
+    "Merge Market + News": { "main": [[{ "node": "🎯 MODIFY: LLM Prompt" }]] },
+    "🎯 MODIFY: LLM Prompt": { "main": [[{ "node": "Call Ollama LLM" }]] },
+    "Call Ollama LLM": { "main": [[{ "node": "Parse LLM Response" }]] },
+    "Parse LLM Response": {
+      "main": [[{ "node": "🎯 MODIFY: Trading Logic" }]]
+    },
+    "🎯 MODIFY: Trading Logic": {
+      "main": [[{ "node": "Export trades_log.csv" }]]
+    }
+  },
+  "pinData": {}
+}

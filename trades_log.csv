@@ -1,0 +1,514 @@
+date,ticker,price,decision,reason,sentiment,rsi,confidence
+2025-12-19,ADA-USDT,0.3767,sell,"SELL: score=-11.3 [RSI_bias:+0.3, MACD_neg:-6.0, Sent:+0.0, Vol:-5.6]",0.000,38.55,0.400
+2025-12-19,BNB-USDT,856.17,sell,"SELL: score=-18.9 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-1.1, LLM_sell:-12.0]",-0.050,43.53,0.600
+2025-12-19,BTC-USDT,88136.94,hold,"Neutral (score=-5.9, signals=1)",0.000,44.70,0.200
+2025-12-19,DOGE-USDT,0.13222,sell,"SELL: score=-7.0 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:+6.6, Vol:-7.8]",0.300,42.70,0.200
+2025-12-19,DOT-USDT,1.849,sell,"SELL: score=-18.7 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+1.2, Sent:+0.0, LLM_sell:-12.0, Vol:-2.3]",-0.000,32.92,0.800
+2025-12-19,ETH-USDT,2979.5,sell,"SELL: score=-8.9 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2, Vol:-0.8]",-0.100,46.61,0.200
+2025-12-19,LTC-USDT,77.49,sell,"SELL: score=-21.0 [RSI_bias:+0.3, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,38.93,0.600
+2025-12-19,SOL-USDT,126.27,sell,"SELL: score=-23.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0, Vol:-2.0]",-0.150,43.89,0.600
+2025-12-19,XRP-USDT,1.9092,sell,"SELL: score=-23.6 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0, Vol:-2.6]",-0.150,40.95,0.600
+2025-12-20,ADA-USDT,0.373,sell,"SELL: score=-11.1 [RSI_bias:+0.3, MACD_neg:-6.0, Sent:+0.0, Vol:-5.4]",0.000,37.84,0.400
+2025-12-20,BNB-USDT,854.17,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,43.15,0.600
+2025-12-20,BTC-USDT,88360.9,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,45.31,0.200
+2025-12-20,DOGE-USDT,0.13194,hold,"Neutral (score=-2.4, signals=2)",0.150,42.51,0.100
+2025-12-20,DOT-USDT,1.832,hold,"Neutral (score=-3.0, signals=3)",0.150,32.36,0.600
+2025-12-20,ETH-USDT,2977.93,sell,"SELL: score=-8.7 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2, Vol:-0.5]",-0.100,46.53,0.200
+2025-12-20,LTC-USDT,77.84,hold,"Neutral (score=-2.5, signals=3)",0.150,39.68,0.400
+2025-12-20,SOL-USDT,125.81,sell,"SELL: score=-22.9 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0, Vol:-1.7]",-0.150,43.47,0.600
+2025-12-20,XRP-USDT,1.9335,sell,"SELL: score=-8.6 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:+0.0, Vol:-2.8]",0.000,42.92,0.200
+2025-12-21,ADA-USDT,0.3662,sell,"SELL: score=-9.4 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+1.2, Sent:+0.0, Vol:-4.9]",0.000,36.50,0.400
+2025-12-21,BNB-USDT,858.64,hold,"Neutral (score=-2.6, signals=2)",0.150,44.32,0.400
+2025-12-21,BTC-USDT,88658.86,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,46.16,0.200
+2025-12-21,DOGE-USDT,0.13112,hold,"Neutral (score=1.8, signals=2)",0.300,41.91,0.200
+2025-12-21,DOT-USDT,1.802,hold,"Neutral (score=-1.5, signals=3)",0.150,31.35,0.600
+2025-12-21,ETH-USDT,3002.02,sell,"SELL: score=-8.7 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2, Vol:-0.5]",-0.100,47.85,0.200
+2025-12-21,LTC-USDT,76.79,sell,"SELL: score=-21.0 [RSI_bias:+0.3, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,38.15,0.600
+2025-12-21,SOL-USDT,126.03,hold,"Neutral (score=-3.7, signals=2)",0.150,43.75,0.400
+2025-12-21,XRP-USDT,1.9223,hold,"Neutral (score=-1.6, signals=2)",0.300,42.22,0.200
+2025-12-22,ADA-USDT,0.3711,hold,"Neutral (score=-4.3, signals=3)",0.300,38.19,0.200
+2025-12-22,BNB-USDT,858.66,hold,"Neutral (score=-2.6, signals=2)",0.150,44.33,0.400
+2025-12-22,BTC-USDT,88620.79,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,46.06,0.200
+2025-12-22,DOGE-USDT,0.13258,buy,"BUY: score=12.4, signals=3 [RSI_bias:+0.2, MACD_pos:+10.0, Sent:+7.7, Vol:-5.5]",0.350,43.44,0.200
+2025-12-22,DOT-USDT,1.784,hold,"Neutral (score=-1.6, signals=3)",0.150,30.73,0.600
+2025-12-22,ETH-USDT,3009.49,sell,"SELL: score=-8.2 [RSI_bias:+0.0, MACD_neg:-6.0, Sent:-2.2]",-0.100,48.28,0.200
+2025-12-22,LTC-USDT,77.05,hold,"Neutral (score=0.9, signals=3)",0.300,38.78,0.200
+2025-12-22,SOL-USDT,125.93,hold,"Neutral (score=-3.6, signals=2)",0.150,43.64,0.400
+2025-12-22,XRP-USDT,1.9043,hold,"Neutral (score=0.3, signals=2)",0.300,41.06,0.200
+2025-12-23,ADA-USDT,0.3628,sell,"SELL: score=-11.1 [RSI_bias:+0.3, MACD_neg:-6.0, Sent:+0.0, Vol:-5.4]",0.000,36.43,0.400
+2025-12-23,BNB-USDT,844.3,sell,"SELL: score=-19.2 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+1.9, Sent:-3.3, LLM_sell:-12.0]",-0.150,41.16,0.600
+2025-12-23,BTC-USDT,87486.0,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,43.11,0.600
+2025-12-23,DOGE-USDT,0.12928,hold,"Neutral (score=8.7, signals=3)",0.200,40.81,0.600
+2025-12-23,DOT-USDT,1.765,hold,"Neutral (score=-1.3, signals=3)",0.150,30.06,0.600
+2025-12-23,ETH-USDT,2965.02,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,45.88,0.200
+2025-12-23,LTC-USDT,77.01,buy,"BUY: score=36.6, signals=5 [RSI_bias:+0.3, MACD_pos:+10.0, Sent:+14.3, LLM_buy:+12.0]",0.650,38.72,0.400
+2025-12-23,SOL-USDT,124.01,sell,"SELL: score=-22.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0, Vol:-1.0]",-0.150,41.58,0.600
+2025-12-23,XRP-USDT,1.8734,sell,"SELL: score=-6.1 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+0.0, Sent:+0.0, Vol:-0.4]",0.000,39.08,0.400
+2025-12-24,ADA-USDT,0.3566,sell,"SELL: score=-8.9 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+0.4, Sent:+0.0, Vol:-3.7]",0.000,35.12,0.400
+2025-12-24,BNB-USDT,846.58,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,41.87,0.600
+2025-12-24,BTC-USDT,87669.45,sell,"SELL: score=-24.4 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,43.74,0.400
+2025-12-24,DOGE-USDT,0.12856,hold,"Neutral (score=10.5, signals=3)",0.200,40.24,0.600
+2025-12-24,DOT-USDT,1.738,hold,"Neutral (score=6.4, signals=3)",0.150,29.08,0.600
+2025-12-24,ETH-USDT,2947.47,sell,"SELL: score=-24.5 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,44.93,0.400
+2025-12-24,LTC-USDT,75.79,hold,"Neutral (score=30.0, signals=5)",0.350,36.69,0.600
+2025-12-24,SOL-USDT,122.53,sell,"SELL: score=-19.6 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+1.5, Sent:-3.3, LLM_sell:-12.0]",-0.150,40.01,0.600
+2025-12-24,XRP-USDT,1.8628,hold,"Neutral (score=-5.6, signals=2)",0.000,38.39,0.400
+2025-12-25,ADA-USDT,0.3434,hold,"Neutral (score=12.7, signals=4)",0.300,32.45,0.600
+2025-12-25,BNB-USDT,829.64,sell,"SELL: score=-12.3 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+5.4, Sent:+0.0, LLM_sell:-12.0]",-0.000,38.18,0.600
+2025-12-25,BTC-USDT,87225.27,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,42.52,0.600
+2025-12-25,DOGE-USDT,0.12365,hold,"Neutral (score=4.3, signals=3)",0.150,36.49,0.400
+2025-12-25,DOT-USDT,1.685,hold,"Neutral (score=16.1, signals=4)",0.300,27.21,0.600
+2025-12-25,ETH-USDT,2903.95,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,42.57,0.600
+2025-12-25,LTC-USDT,75.71,buy,"BUY: score=30.0, signals=5 [RSI_bias:+0.3, MACD_pos:+10.0, Sent:+7.7, LLM_buy:+12.0]",0.350,36.55,0.600
+2025-12-25,SOL-USDT,120.06,sell,"SELL: score=-13.3 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+4.4, Sent:+0.0, LLM_sell:-12.0]",-0.000,37.46,0.600
+2025-12-25,XRP-USDT,1.8326,hold,"Neutral (score=-3.4, signals=2)",0.000,36.44,0.400
+2025-12-26,ADA-USDT,0.3496,hold,"Neutral (score=-2.3, signals=3)",0.150,34.95,0.600
+2025-12-26,BNB-USDT,834.72,sell,"SELL: score=-19.9 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+1.2, Sent:-3.3, LLM_sell:-12.0]",-0.150,39.89,0.600
+2025-12-26,BTC-USDT,87369.56,sell,"SELL: score=-24.4 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,43.07,0.400
+2025-12-26,DOGE-USDT,0.12211,hold,"Neutral (score=9.0, signals=3)",0.150,35.37,0.400
+2025-12-26,DOT-USDT,1.723,buy,"BUY: score=30.2, signals=5 [RSI_bias:+0.5, MACD_pos:+10.0, Sent:+7.7, LLM_buy:+12.0]",0.350,30.65,0.800
+2025-12-26,ETH-USDT,2927.99,sell,"SELL: score=-24.5 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,44.31,0.400
+2025-12-26,LTC-USDT,76.87,buy,"BUY: score=21.2, signals=3 [RSI_bias:+0.2, MACD_pos:+10.0, Sent:+11.0]",0.500,40.01,0.200
+2025-12-26,SOL-USDT,122.26,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,41.06,0.600
+2025-12-26,XRP-USDT,1.8437,hold,"Neutral (score=-5.7, signals=2)",0.000,37.69,0.400
+2025-12-27,ADA-USDT,0.37,hold,"Neutral (score=-3.9, signals=2)",0.150,42.49,0.100
+2025-12-27,BNB-USDT,845.04,sell,"SELL: score=-24.4 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,43.32,0.400
+2025-12-27,BTC-USDT,87877.01,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,45.09,0.200
+2025-12-27,DOGE-USDT,0.12435,hold,"Neutral (score=1.8, signals=2)",0.000,38.32,0.400
+2025-12-27,DOT-USDT,1.91,buy,"BUY: score=12.3, signals=2 [RSI_bias:+0.1, MACD_pos:+10.0, Sent:+11.0, Vol:-8.8]",0.500,44.56,0.200
+2025-12-27,ETH-USDT,2949.05,sell,"SELL: score=-26.7 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-8.8, LLM_sell:-12.0]",-0.400,45.85,0.400
+2025-12-27,LTC-USDT,80.33,hold,"Neutral (score=18.8, signals=2)",0.400,48.94,0.200
+2025-12-27,SOL-USDT,124.73,hold,"Neutral (score=-5.9, signals=1)",0.000,44.89,0.200
+2025-12-27,XRP-USDT,1.8735,hold,"Neutral (score=-2.5, signals=2)",0.150,41.07,0.100
+2025-12-28,ADA-USDT,0.3688,buy,"BUY: score=17.0, signals=3 [RSI_bias:+0.2, MACD_pos:+10.0, Sent:+7.7, Vol:-0.9]",0.350,42.18,0.200
+2025-12-28,BNB-USDT,859.32,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,47.76,0.200
+2025-12-28,BTC-USDT,87952.71,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,45.40,0.200
+2025-12-28,DOGE-USDT,0.12393,hold,"Neutral (score=1.8, signals=2)",0.000,37.97,0.400
+2025-12-28,DOT-USDT,1.851,hold,"Neutral (score=11.7, signals=2)",0.500,41.72,0.200
+2025-12-28,ETH-USDT,2950.91,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,46.00,0.200
+2025-12-28,LTC-USDT,78.73,buy,"BUY: score=18.9, signals=2 [RSI_bias:+0.1, MACD_pos:+10.0, Sent:+8.8]",0.400,45.56,0.200
+2025-12-28,SOL-USDT,125.27,hold,"Neutral (score=-4.8, signals=0)",0.050,45.72,0.100
+2025-12-28,XRP-USDT,1.8654,buy,"BUY: score=17.9, signals=3 [RSI_bias:+0.2, MACD_pos:+10.0, Sent:+7.7]",0.350,40.42,0.200
+2025-12-29,ADA-USDT,0.3532,hold,"Neutral (score=9.9, signals=3)",0.100,38.28,0.600
+2025-12-29,BNB-USDT,852.46,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,45.90,0.200
+2025-12-29,BTC-USDT,87237.13,sell,"SELL: score=-24.4 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,42.93,0.400
+2025-12-29,DOGE-USDT,0.12288,hold,"Neutral (score=1.8, signals=2)",0.000,37.06,0.400
+2025-12-29,DOT-USDT,1.824,hold,"Neutral (score=11.6, signals=2)",0.500,40.45,0.200
+2025-12-29,ETH-USDT,2937.9,sell,"SELL: score=-26.7 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-8.8, LLM_sell:-12.0]",-0.400,45.10,0.400
+2025-12-29,LTC-USDT,78.32,buy,"BUY: score=21.1, signals=2 [RSI_bias:+0.1, MACD_pos:+10.0, Sent:+11.0]",0.500,44.71,0.200
+2025-12-29,SOL-USDT,123.28,buy,"BUY: score=21.2, signals=3 [RSI_bias:+0.2, MACD_pos:+10.0, Sent:+11.0]",0.500,43.14,0.200
+2025-12-29,XRP-USDT,1.8508,buy,"BUY: score=14.7, signals=4 [RSI_bias:+0.3, MACD_pos:+10.0, Sent:+4.4]",0.200,39.24,0.600
+2025-12-30,ADA-USDT,0.3514,buy,"BUY: score=12.5, signals=4 [RSI_bias:+0.3, MACD_pos:+10.0, Sent:+4.4, Vol:-2.2]",0.200,37.84,0.600
+2025-12-30,BNB-USDT,861.65,hold,"Neutral (score=18.8, signals=2)",0.400,48.78,0.200
+2025-12-30,BTC-USDT,88485.49,hold,"Neutral (score=18.8, signals=2)",0.400,48.22,0.200
+2025-12-30,DOGE-USDT,0.12336,buy,"BUY: score=14.7, signals=4 [RSI_bias:+0.3, MACD_pos:+10.0, Sent:+4.4]",0.200,37.80,0.600
+2025-12-30,DOT-USDT,1.811,hold,"Neutral (score=11.7, signals=3)",0.500,39.82,0.200
+2025-12-30,ETH-USDT,2973.69,sell,"SELL: score=-8.2 [RSI_bias:+0.0, MACD_neg:-6.0, Sent:-2.2]",-0.100,48.09,0.200
+2025-12-30,LTC-USDT,78.89,buy,"BUY: score=18.9, signals=2 [RSI_bias:+0.1, MACD_pos:+10.0, Sent:+8.8]",0.400,46.22,0.200
+2025-12-30,SOL-USDT,125.01,buy,"BUY: score=18.9, signals=2 [RSI_bias:+0.1, MACD_pos:+10.0, Sent:+8.8]",0.400,45.99,0.200
+2025-12-30,XRP-USDT,1.8776,buy,"BUY: score=17.9, signals=3 [RSI_bias:+0.2, MACD_pos:+10.0, Sent:+7.7]",0.350,42.57,0.200
+2025-12-31,ADA-USDT,0.3335,hold,"Neutral (score=22.0, signals=4)",0.300,33.73,0.600
+2025-12-31,BNB-USDT,864.3,hold,"Neutral (score=18.8, signals=2)",0.400,49.61,0.200
+2025-12-31,BTC-USDT,87648.22,hold,"Neutral (score=12.3, signals=1)",0.100,45.19,0.400
+2025-12-31,DOGE-USDT,0.11747,hold,"Neutral (score=28.4, signals=4)",0.300,32.74,0.600
+2025-12-31,DOT-USDT,1.789,hold,"Neutral (score=5.2, signals=4)",0.200,38.72,0.400
+2025-12-31,ETH-USDT,2971.64,sell,"SELL: score=-8.2 [RSI_bias:+0.0, MACD_neg:-6.0, Sent:-2.2]",-0.100,47.93,0.200
+2025-12-31,LTC-USDT,76.85,hold,"Neutral (score=16.8, signals=3)",0.300,41.83,0.200
+2025-12-31,SOL-USDT,124.65,buy,"BUY: score=18.9, signals=2 [RSI_bias:+0.1, MACD_pos:+10.0, Sent:+8.8]",0.400,45.48,0.200
+2025-12-31,XRP-USDT,1.8423,hold,"Neutral (score=14.7, signals=4)",0.200,39.50,0.600
+2026-01-01,ADA-USDT,0.3565,hold,"Neutral (score=9.9, signals=3)",0.350,42.39,0.200
+2026-01-01,BNB-USDT,864.39,hold,"Neutral (score=18.8, signals=2)",0.400,49.64,0.200
+2026-01-01,BTC-USDT,88839.04,hold,"Neutral (score=17.7, signals=2)",0.350,50.00,0.600
+2026-01-01,DOGE-USDT,0.12683,hold,"Neutral (score=11.2, signals=2)",0.250,45.27,0.200
+2026-01-01,DOT-USDT,1.999,hold,HIGH RISK - no new trades (vol=0.061),0.175,52.26,0.600
+2026-01-01,ETH-USDT,3004.19,hold,"Neutral (score=17.7, signals=2)",0.350,50.74,0.200
+2026-01-01,LTC-USDT,79.97,hold,"Neutral (score=16.9, signals=2)",0.350,49.70,0.600
+2026-01-01,SOL-USDT,126.9,hold,"Neutral (score=18.8, signals=2)",0.400,49.28,0.200
+2026-01-01,XRP-USDT,1.8799,buy,"BUY: score=17.8, signals=2 [RSI_bias:+0.1, MACD_pos:+10.0, Sent:+7.7]",0.350,44.13,0.200
+2026-01-02,ADA-USDT,0.3949,hold,HIGH RISK - no new trades (vol=0.060),0.000,53.35,0.400
+2026-01-02,BNB-USDT,881.25,sell,"SELL_BB: BB=0.96 [RSI_bias:-0.1, MACD_pos:+10.0, BB_high:-7.0, Sent:+3.3]",0.150,55.03,0.600
+2026-01-02,BTC-USDT,89995.13,sell,"SELL_BB: BB=1.05 [RSI_bias:-0.1, MACD_pos:+10.0, BB_high:-11.4, Sent:+3.3]",0.150,54.20,0.600
+2026-01-02,DOGE-USDT,0.14188,hold,HIGH RISK - no new trades (vol=0.057),0.000,58.62,0.400
+2026-01-02,DOT-USDT,2.166,hold,HIGH RISK - no new trades (vol=0.065),0.105,59.85,0.600
+2026-01-02,ETH-USDT,3125.45,sell,"SELL_BB: BB=1.11 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-13.9, Sent:+5.5]",0.250,59.53,0.600
+2026-01-02,LTC-USDT,81.93,sell,"SELL_BB: BB=1.08 [RSI_bias:-0.1, MACD_pos:+10.0, BB_high:-12.5, Sent:+3.3]",0.150,53.92,0.600
+2026-01-02,SOL-USDT,132.29,sell,"SELL_BB: BB=1.08 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-12.4, Sent:+5.5]",0.250,57.00,0.600
+2026-01-02,XRP-USDT,2.0069,sell,"SELL_BB: BB=1.11 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-13.9, Sent:+3.3]",0.150,56.29,0.400
+2026-01-03,ADA-USDT,0.3893,hold,HIGH RISK - no new trades (vol=0.058),-0.070,51.80,0.400
+2026-01-03,BNB-USDT,878.63,sell,"SELL_BB: BB=0.91 [RSI_bias:-0.1, MACD_pos:+10.0, BB_high:-4.8, Sent:+3.3]",0.150,54.06,0.600
+2026-01-03,BTC-USDT,90628.01,sell,"SELL_BB: BB=1.08 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-12.4, Sent:+3.3]",0.150,56.36,0.600
+2026-01-03,DOGE-USDT,0.14315,hold,HIGH RISK - no new trades (vol=0.057),0.000,59.51,0.600
+2026-01-03,DOT-USDT,2.125,hold,HIGH RISK - no new trades (vol=0.058),0.105,57.43,0.600
+2026-01-03,ETH-USDT,3127.11,sell,"SELL_BB: BB=1.05 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-11.3, Sent:+3.3]",0.150,59.64,0.600
+2026-01-03,LTC-USDT,82.08,sell,"SELL_BB: BB=1.01 [RSI_bias:-0.1, MACD_pos:+10.0, BB_high:-9.5, Sent:+3.3]",0.150,54.23,0.600
+2026-01-03,SOL-USDT,133.37,sell,"SELL_BB: BB=1.08 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-12.4, Sent:+3.3]",0.150,58.37,0.600
+2026-01-03,XRP-USDT,2.0182,sell,"SELL_BB: BB=1.10 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-13.6, Sent:+3.3]",0.150,57.18,0.600
+2026-01-04,ADA-USDT,0.4007,hold,HIGH RISK - no new trades (vol=0.059),0.000,54.68,0.600
+2026-01-04,BNB-USDT,895.43,sell,"SELL_BB: BB=1.06 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-11.8, Sent:+3.3]",0.150,59.04,0.600
+2026-01-04,BTC-USDT,91529.73,sell,"SELL_BB: BB=1.11 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-14.0, Sent:+3.3]",0.150,59.30,0.600
+2026-01-04,DOGE-USDT,0.14953,hold,HIGH RISK - no new trades (vol=0.057),-0.105,63.76,0.800
+2026-01-04,DOT-USDT,2.142,hold,HIGH RISK - no new trades (vol=0.055),0.105,58.19,0.600
+2026-01-04,ETH-USDT,3144.7,sell,"SELL: score=-11.7 [RSI_bias:-0.3, MACD_pos:+10.0, BB_high:-9.5, Sent:+0.0, LLM_sell:-12.0]",0.000,60.81,0.800
+2026-01-04,LTC-USDT,82.26,sell,"SELL_BB: BB=0.96 [RSI_bias:-0.1, MACD_pos:+10.0, BB_high:-7.0, Sent:+3.3]",0.150,54.63,0.600
+2026-01-04,SOL-USDT,134.12,sell,"SELL_BB: BB=1.03 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-10.5, Sent:+3.3]",0.150,59.34,0.600
+2026-01-04,XRP-USDT,2.0909,sell,"SELL: score=-17.4 [RSI_bias:-0.3, MACD_pos:+10.0, BB_high:-17.3, Sent:+2.2, LLM_sell:-12.0]",0.100,62.49,0.800
+2026-01-05,ADA-USDT,0.4211,hold,HIGH RISK - no new trades (vol=0.054),0.070,59.36,0.600
+2026-01-05,BNB-USDT,910.31,sell,"SELL: score=-17.1 [RSI_bias:-0.3, MACD_pos:+10.0, BB_high:-14.8, Sent:+0.0, LLM_sell:-12.0]",0.000,62.88,0.800
+2026-01-05,BTC-USDT,93859.71,sell,"SELL: score=-19.1 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-18.9, Sent:+2.2, LLM_sell:-12.0]",0.100,65.74,0.800
+2026-01-05,DOGE-USDT,0.15171,hold,HIGH RISK - no new trades (vol=0.055),-0.105,65.11,0.800
+2026-01-05,DOT-USDT,2.208,hold,HIGH RISK - no new trades (vol=0.052),0.070,61.07,0.800
+2026-01-05,ETH-USDT,3224.99,sell,"SELL: score=-13.3 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-13.2, Sent:+2.2, LLM_sell:-12.0]",0.100,65.71,0.800
+2026-01-05,LTC-USDT,83.46,sell,"SELL_BB: BB=1.00 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-9.0, Sent:+3.3]",0.150,57.33,0.600
+2026-01-05,SOL-USDT,137.9,sell,"SELL: score=-14.5 [RSI_bias:-0.3, MACD_pos:+10.0, BB_high:-14.3, Sent:+2.2, LLM_sell:-12.0]",0.100,63.89,0.800
+2026-01-05,XRP-USDT,2.3478,sell,EMERGENCY: RSI=74.5 overbought,-0.100,74.52,0.800
+2026-01-06,ADA-USDT,0.4194,hold,HIGH RISK - no new trades (vol=0.054),0.000,58.82,0.600
+2026-01-06,BNB-USDT,917.64,sell,"SELL: score=-14.7 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-12.4, Sent:+0.0, LLM_sell:-12.0]",0.000,64.64,0.800
+2026-01-06,BTC-USDT,93747.97,sell,"SELL: score=-14.7 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-12.3, Sent:+0.0, LLM_sell:-12.0]",0.000,65.20,0.800
+2026-01-06,DOGE-USDT,0.15055,hold,HIGH RISK - no new trades (vol=0.056),-0.105,63.75,0.800
+2026-01-06,DOT-USDT,2.235,hold,HIGH RISK - no new trades (vol=0.051),0.000,62.22,0.800
+2026-01-06,ETH-USDT,3296.84,sell,"SELL: score=-17.0 [RSI_bias:-0.5, MACD_pos:+10.0, BB_high:-14.5, Sent:+0.0, LLM_sell:-12.0]",0.000,69.39,0.800
+2026-01-06,LTC-USDT,83.96,sell,"SELL_BB: BB=0.97 [RSI_bias:-0.2, MACD_pos:+10.0, BB_high:-7.6, Sent:+3.3]",0.150,58.44,0.600
+2026-01-06,SOL-USDT,141.08,sell,"SELL: score=-16.4 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-14.0, Sent:+0.0, LLM_sell:-12.0]",0.000,67.22,0.800
+2026-01-06,XRP-USDT,2.3042,hold,HIGH RISK - no new trades (vol=0.051),-0.140,70.39,0.800
+2026-01-07,ADA-USDT,0.4022,hold,HIGH RISK - no new trades (vol=0.052),0.105,53.47,0.600
+2026-01-07,BNB-USDT,900.3,hold,"Neutral (score=10.6, signals=2)",0.150,57.68,0.600
+2026-01-07,BTC-USDT,91364.16,hold,"Neutral (score=9.9, signals=1)",0.000,54.97,0.400
+2026-01-07,DOGE-USDT,0.14642,hold,HIGH RISK - no new trades (vol=0.051),0.105,59.03,0.600
+2026-01-07,DOT-USDT,2.145,hold,HIGH RISK - no new trades (vol=0.056),0.000,56.27,0.400
+2026-01-07,ETH-USDT,3168.72,hold,"Neutral (score=15.8, signals=2)",0.300,57.52,0.600
+2026-01-07,LTC-USDT,81.71,hold,"Neutral (score=10.0, signals=1)",0.000,51.91,0.400
+2026-01-07,SOL-USDT,136.39,hold,"Neutral (score=10.2, signals=2)",0.150,58.64,0.600
+2026-01-07,XRP-USDT,2.1657,hold,HIGH RISK - no new trades (vol=0.059),0.210,59.19,0.600
+2026-01-08,ADA-USDT,0.3956,hold,HIGH RISK - no new trades (vol=0.051),-0.105,51.53,0.400
+2026-01-08,BNB-USDT,892.26,hold,"Neutral (score=9.9, signals=1)",0.000,54.74,0.400
+2026-01-08,BTC-USDT,91099.99,hold,"Neutral (score=9.9, signals=1)",0.000,53.96,0.400
+2026-01-08,DOGE-USDT,0.14194,hold,HIGH RISK - no new trades (vol=0.052),-0.105,54.33,0.400
+2026-01-08,DOT-USDT,2.111,hold,"Neutral (score=4.6, signals=1)",0.000,54.16,0.400
+2026-01-08,ETH-USDT,3106.65,hold,"Neutral (score=13.2, signals=2)",0.150,52.81,0.200
+2026-01-08,LTC-USDT,81.31,hold,"Neutral (score=13.3, signals=2)",0.150,50.82,0.200
+2026-01-08,SOL-USDT,138.37,sell,"SELL: score=-6.5 [RSI_bias:-0.3, MACD_pos:+10.0, BB_high:-4.3, Sent:+0.0, LLM_sell:-12.0]",0.000,60.91,0.800
+2026-01-08,XRP-USDT,2.1232,hold,HIGH RISK - no new trades (vol=0.062),0.000,56.23,0.400
+2026-01-09,ADA-USDT,0.3914,hold,"Neutral (score=9.5, signals=1)",-0.000,50.28,0.200
+2026-01-09,BNB-USDT,896.86,hold,"Neutral (score=9.9, signals=1)",0.000,56.12,0.400
+2026-01-09,BTC-USDT,90641.28,hold,"Neutral (score=13.2, signals=2)",0.150,52.17,0.200
+2026-01-09,DOGE-USDT,0.14071,hold,"Neutral (score=9.9, signals=1)",-0.000,53.08,0.200
+2026-01-09,DOT-USDT,2.083,hold,"Neutral (score=13.2, signals=2)",0.150,52.42,0.200
+2026-01-09,ETH-USDT,3088.4,hold,"Neutral (score=13.3, signals=2)",0.150,51.47,0.200
+2026-01-09,LTC-USDT,81.49,hold,"Neutral (score=13.3, signals=2)",0.150,51.31,0.200
+2026-01-09,SOL-USDT,135.97,hold,"Neutral (score=9.8, signals=1)",0.000,56.84,0.400
+2026-01-09,XRP-USDT,2.0958,hold,HIGH RISK - no new trades (vol=0.058),0.105,54.34,0.200
+2026-01-10,ADA-USDT,0.3886,hold,"Neutral (score=10.9, signals=1)",0.050,49.42,0.200
+2026-01-10,BNB-USDT,907.93,hold,"Neutral (score=14.8, signals=2)",0.300,59.33,0.600
+2026-01-10,BTC-USDT,90504.7,hold,"Neutral (score=13.3, signals=2)",0.150,51.62,0.200
+2026-01-10,DOGE-USDT,0.13965,hold,"Neutral (score=10.0, signals=1)",-0.000,51.97,0.200
+2026-01-10,DOT-USDT,2.093,hold,"Neutral (score=13.2, signals=2)",0.150,53.00,0.200
+2026-01-10,ETH-USDT,3086.72,hold,"Neutral (score=13.3, signals=2)",0.150,51.34,0.200
+2026-01-10,LTC-USDT,81.19,hold,"Neutral (score=13.3, signals=2)",0.150,50.41,0.200
+2026-01-10,SOL-USDT,135.84,hold,"Neutral (score=9.8, signals=1)",0.000,56.62,0.400
+2026-01-10,XRP-USDT,2.0907,hold,HIGH RISK - no new trades (vol=0.059),0.105,53.98,0.200
+2026-01-11,ADA-USDT,0.391,hold,"Neutral (score=10.0, signals=1)",-0.000,50.21,0.200
+2026-01-11,BNB-USDT,904.32,hold,"Neutral (score=16.4, signals=2)",0.300,57.84,0.600
+2026-01-11,BTC-USDT,91013.65,hold,"Neutral (score=13.2, signals=2)",0.150,53.58,0.200
+2026-01-11,DOGE-USDT,0.13801,hold,"Neutral (score=10.0, signals=1)",-0.000,50.22,0.200
+2026-01-11,DOT-USDT,2.07,hold,"Neutral (score=13.3, signals=2)",0.150,51.44,0.200
+2026-01-11,ETH-USDT,3123.45,hold,"Neutral (score=13.2, signals=2)",0.150,54.05,0.200
+2026-01-11,LTC-USDT,78.79,hold,"Neutral (score=14.6, signals=3)",0.200,43.73,0.200
+2026-01-11,SOL-USDT,139.7,hold,"Neutral (score=1.2, signals=2)",0.250,61.41,0.800
+2026-01-11,XRP-USDT,2.0745,hold,HIGH RISK - no new trades (vol=0.057),0.105,52.77,0.200
+2026-01-12,ADA-USDT,0.3862,hold,"Neutral (score=11.1, signals=1)",0.050,48.58,0.200
+2026-01-12,BNB-USDT,905.78,hold,"Neutral (score=16.4, signals=2)",0.300,58.30,0.600
+2026-01-12,BTC-USDT,91296.2,hold,"Neutral (score=13.2, signals=2)",0.150,54.68,0.200
+2026-01-12,DOGE-USDT,0.13662,hold,"Neutral (score=11.1, signals=1)",0.050,48.72,0.200
+2026-01-12,DOT-USDT,2.055,hold,"Neutral (score=13.3, signals=2)",0.150,50.40,0.200
+2026-01-12,ETH-USDT,3095.75,sell,"SELL: score=-25.7 [RSI_bias:-0.0, MACD_neg:-6.0, Sent:-7.7, LLM_sell:-12.0]",-0.350,51.71,0.200
+2026-01-12,LTC-USDT,76.12,hold,"Neutral (score=-3.2, signals=2)",-0.000,37.75,0.400
+2026-01-12,SOL-USDT,139.22,hold,"Neutral (score=1.0, signals=2)",0.150,60.51,0.800
+2026-01-12,XRP-USDT,2.054,hold,"Neutral (score=10.0, signals=1)",-0.000,51.21,0.200
+2026-01-13,ADA-USDT,0.4218,hold,"Neutral (score=0.1, signals=1)",0.000,59.15,0.600
+2026-01-13,BNB-USDT,943.73,sell,"SELL: score=-9.7 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-9.4, Sent:+2.2, LLM_sell:-12.0]",0.100,67.97,0.800
+2026-01-13,BTC-USDT,95414.0,sell,"SELL: score=-13.7 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-11.3, Sent:+0.0, LLM_sell:-12.0]",0.000,66.97,0.800
+2026-01-13,DOGE-USDT,0.14828,hold,"Neutral (score=8.4, signals=2)",0.150,59.60,0.600
+2026-01-13,DOT-USDT,2.282,sell,"SELL: score=-12.8 [RSI_bias:-0.3, MACD_pos:+10.0, BB_high:-3.2, Sent:+2.2, LLM_sell:-12.0, Vol:-9.4]",0.100,62.69,0.800
+2026-01-13,ETH-USDT,3325.82,sell,"SELL: score=-12.4 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-9.4, Sent:+2.2, LLM_sell:-12.0, Vol:-2.9]",0.100,65.17,0.800
+2026-01-13,LTC-USDT,78.18,sell,"SELL: score=-24.5 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,44.10,0.400
+2026-01-13,SOL-USDT,145.51,sell,"SELL: score=-9.2 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-6.8, Sent:+0.0, LLM_sell:-12.0]",0.000,67.25,0.800
+2026-01-13,XRP-USDT,2.1655,hold,"Neutral (score=11.3, signals=2)",0.150,58.41,0.600
+2026-01-14,ADA-USDT,0.4143,hold,"Neutral (score=8.5, signals=2)",0.150,56.51,0.600
+2026-01-14,BNB-USDT,948.47,sell,"SELL: score=-10.9 [RSI_bias:-0.5, MACD_pos:+10.0, BB_high:-8.4, Sent:+0.0, LLM_sell:-12.0]",0.000,68.94,0.800
+2026-01-14,BTC-USDT,96951.78,sell,"SELL: score=-19.0 [RSI_overbought:-0.0, MACD_pos:+10.0, BB_high:-12.6, Sent:-4.4, LLM_sell:-12.0]",-0.200,70.21,0.800
+2026-01-14,DOGE-USDT,0.14718,hold,"Neutral (score=9.1, signals=2)",0.150,58.34,0.600
+2026-01-14,DOT-USDT,2.226,hold,"Neutral (score=8.0, signals=2)",0.300,58.82,0.600
+2026-01-14,ETH-USDT,3354.92,sell,"SELL: score=-11.4 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-8.6, Sent:+0.0, LLM_sell:-12.0, Vol:-0.4]",0.000,66.45,0.800
+2026-01-14,LTC-USDT,76.67,sell,"SELL: score=-18.9 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+2.2, Sent:-3.3, LLM_sell:-12.0]",-0.150,40.81,0.600
+2026-01-14,SOL-USDT,146.69,sell,"SELL: score=-8.7 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-6.3, Sent:+0.0, LLM_sell:-12.0]",0.000,68.34,0.800
+2026-01-14,XRP-USDT,2.1394,hold,"Neutral (score=16.4, signals=2)",0.300,56.32,0.400
+2026-01-15,ADA-USDT,0.3936,hold,"Neutral (score=4.1, signals=1)",0.050,49.90,0.200
+2026-01-15,BNB-USDT,931.2,hold,"Neutral (score=0.0, signals=2)",0.150,61.62,0.800
+2026-01-15,BTC-USDT,95604.8,sell,"SELL: score=-7.0 [RSI_bias:-0.3, MACD_pos:+10.0, BB_high:-4.6, Sent:+0.0, LLM_sell:-12.0]",0.000,64.26,0.800
+2026-01-15,DOGE-USDT,0.14004,hold,"Neutral (score=4.5, signals=1)",-0.000,50.84,0.200
+2026-01-15,DOT-USDT,2.117,hold,HIGH RISK - no new trades (vol=0.051),0.105,52.08,0.200
+2026-01-15,ETH-USDT,3318.69,hold,"Neutral (score=-5.8, signals=1)",0.000,63.34,0.800
+2026-01-15,LTC-USDT,72.21,hold,"Neutral (score=1.8, signals=3)",0.150,32.99,0.800
+2026-01-15,SOL-USDT,142.4,hold,"Neutral (score=1.0, signals=2)",0.150,60.46,0.800
+2026-01-15,XRP-USDT,2.0789,hold,"Neutral (score=10.0, signals=1)",-0.000,51.69,0.200
+2026-01-16,ADA-USDT,0.3955,hold,"Neutral (score=3.1, signals=1)",-0.000,50.48,0.200
+2026-01-16,BNB-USDT,938.16,hold,"Neutral (score=-1.2, signals=2)",0.150,63.31,0.800
+2026-01-16,BTC-USDT,95550.94,hold,"Neutral (score=-4.9, signals=1)",0.000,64.02,0.800
+2026-01-16,DOGE-USDT,0.13813,hold,"Neutral (score=5.6, signals=1)",0.050,49.03,0.200
+2026-01-16,DOT-USDT,2.119,hold,HIGH RISK - no new trades (vol=0.051),0.105,52.19,0.200
+2026-01-16,ETH-USDT,3296.28,hold,"Neutral (score=0.8, signals=2)",0.150,61.43,0.800
+2026-01-16,LTC-USDT,75.22,sell,"SELL: score=-18.1 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+2.3, Sent:+0.0, LLM_sell:-12.0, Vol:-2.6]",-0.000,41.18,0.600
+2026-01-16,SOL-USDT,144.89,hold,"Neutral (score=-0.1, signals=2)",0.150,63.12,0.800
+2026-01-16,XRP-USDT,2.0678,sell,"SELL: score=-22.4 [RSI_bias:-0.0, MACD_neg:-6.0, Sent:-4.4, LLM_sell:-12.0]",-0.200,50.86,0.100
+2026-01-17,ADA-USDT,0.3973,hold,"Neutral (score=3.1, signals=1)",-0.000,51.05,0.200
+2026-01-17,BNB-USDT,947.12,sell,"SELL: score=-6.0 [RSI_bias:-0.4, MACD_pos:+10.0, BB_high:-3.7, Sent:+0.0, LLM_sell:-12.0]",0.000,65.43,0.800
+2026-01-17,BTC-USDT,95147.77,hold,"Neutral (score=1.0, signals=2)",0.150,62.20,0.800
+2026-01-17,DOGE-USDT,0.13788,sell,"SELL: score=-19.3 [RSI_bias:+0.0, MACD_flat:+1.5, Sent:-3.3, LLM_sell:-12.0, Vol:-5.5]",-0.150,48.78,0.100
+2026-01-17,DOT-USDT,2.179,hold,HIGH RISK - no new trades (vol=0.051),0.210,55.44,0.400
+2026-01-17,ETH-USDT,3310.56,hold,"Neutral (score=0.9, signals=2)",0.150,62.21,0.800
+2026-01-17,LTC-USDT,74.92,sell,"SELL: score=-21.8 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+1.9, Sent:-3.3, LLM_sell:-12.0, Vol:-2.6]",-0.150,40.65,0.600
+2026-01-17,SOL-USDT,143.72,hold,"Neutral (score=1.0, signals=2)",0.150,61.04,0.800
+2026-01-17,XRP-USDT,2.0631,sell,"SELL: score=-22.4 [RSI_bias:-0.0, MACD_neg:-6.0, Sent:-4.4, LLM_sell:-12.0]",-0.200,50.50,0.100
+2026-01-18,ADA-USDT,0.3758,sell,"SELL: score=-23.1 [RSI_bias:+0.1, MACD_flat:+1.5, Sent:-3.3, LLM_sell:-12.0, Vol:-9.4]",-0.150,44.46,0.100
+2026-01-18,BNB-USDT,932.51,hold,"Neutral (score=9.8, signals=1)",0.000,59.42,0.400
+2026-01-18,BTC-USDT,93673.14,hold,"Neutral (score=13.2, signals=2)",0.150,55.92,0.200
+2026-01-18,DOGE-USDT,0.13164,hold,"Neutral (score=-3.3, signals=1)",0.100,42.99,0.200
+2026-01-18,DOT-USDT,2.065,hold,HIGH RISK - no new trades (vol=0.056),0.035,48.66,0.200
+2026-01-18,ETH-USDT,3284.03,hold,"Neutral (score=16.2, signals=2)",0.300,59.78,0.600
+2026-01-18,LTC-USDT,72.29,sell,"SELL: score=-12.8 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+7.7, Sent:+0.0, LLM_sell:-12.0, Vol:-2.9]",-0.000,36.22,0.600
+2026-01-18,SOL-USDT,137.87,hold,"Neutral (score=11.1, signals=1)",0.050,51.85,0.200
+2026-01-18,XRP-USDT,1.9914,sell,"SELL: score=-24.5 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,45.14,0.200
+2026-01-19,ADA-USDT,0.3703,sell,"SELL: score=-13.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:+2.2, Vol:-9.4]",0.100,42.93,0.200
+2026-01-19,BNB-USDT,923.6,hold,"Neutral (score=13.2, signals=2)",0.150,56.04,0.200
+2026-01-19,BTC-USDT,92631.0,hold,"Neutral (score=13.3, signals=2)",0.150,51.93,0.200
+2026-01-19,DOGE-USDT,0.12916,sell,"SELL: score=-12.6 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+0.4, Sent:+0.0, Vol:-7.3]",0.000,40.92,0.400
+2026-01-19,DOT-USDT,2.028,hold,HIGH RISK - no new trades (vol=0.056),-0.000,46.67,0.200
+2026-01-19,ETH-USDT,3189.55,hold,"Neutral (score=9.6, signals=1)",0.050,52.00,0.200
+2026-01-19,LTC-USDT,70.8,sell,"SELL: score=-10.5 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+8.4, Sent:+1.1, LLM_sell:-12.0, Vol:-2.4]",0.050,33.96,0.800
+2026-01-19,SOL-USDT,133.44,sell,"SELL: score=-27.3 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-8.8, LLM_sell:-12.0, Vol:-0.5]",-0.400,46.18,0.200
+2026-01-19,XRP-USDT,1.986,sell,"SELL: score=-24.5 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-6.6, LLM_sell:-12.0]",-0.300,44.75,0.400
+2026-01-20,ADA-USDT,0.3507,hold,"Neutral (score=8.8, signals=3)",0.150,37.93,0.400
+2026-01-20,BNB-USDT,884.2,sell,"SELL: score=-7.0 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-1.1]",-0.050,44.10,0.400
+2026-01-20,BTC-USDT,88427.66,hold,"Neutral (score=-1.0, signals=2)",-0.000,39.64,0.400
+2026-01-20,DOGE-USDT,0.12336,hold,"Neutral (score=8.1, signals=3)",0.150,36.48,0.400
+2026-01-20,DOT-USDT,1.897,hold,"Neutral (score=-4.8, signals=1)",-0.000,40.37,0.600
+2026-01-20,ETH-USDT,2939.88,hold,"Neutral (score=6.3, signals=2)",0.100,37.94,0.400
+2026-01-20,LTC-USDT,67.12,hold,"Neutral (score=-3.8, signals=3)",0.150,29.13,0.800
+2026-01-20,SOL-USDT,125.8,hold,"Neutral (score=6.3, signals=2)",0.100,38.38,0.400
+2026-01-20,XRP-USDT,1.89,sell,"SELL: score=-12.3 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+5.5, Sent:+0.0, LLM_sell:-12.0]",-0.000,38.46,0.600
+2026-01-21,ADA-USDT,0.3659,hold,"Neutral (score=-2.9, signals=2)",0.150,43.43,0.400
+2026-01-21,BNB-USDT,883.36,sell,"SELL: score=-6.8 [RSI_bias:+0.1, MACD_neg:-6.0, BB_low:+0.1, Sent:-1.1]",-0.050,43.89,0.400
+2026-01-21,BTC-USDT,89454.73,sell,"SELL: score=-6.5 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+0.4, Sent:-1.1]",-0.050,43.18,0.400
+2026-01-21,DOGE-USDT,0.12654,hold,"Neutral (score=3.4, signals=2)",0.150,40.30,0.400
+2026-01-21,DOT-USDT,1.955,sell,"SELL: score=-16.4 [RSI_bias:+0.1, MACD_neg:-6.0, BB_low:+6.0, Sent:+0.0, LLM_sell:-12.0, Vol:-4.5]",-0.000,43.97,0.600
+2026-01-21,ETH-USDT,2982.27,hold,"Neutral (score=1.5, signals=1)",0.100,40.86,0.400
+2026-01-21,LTC-USDT,68.48,sell,"SELL: score=-11.7 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+6.1, Sent:+3.3, LLM_sell:-12.0, Vol:-3.5]",0.150,32.93,0.800
+2026-01-21,SOL-USDT,129.54,sell,"SELL: score=-15.3 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+3.3, Sent:+0.0, LLM_sell:-12.0, Vol:-0.8]",-0.000,43.42,0.600
+2026-01-21,XRP-USDT,1.9476,sell,"SELL: score=-20.4 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+0.8, Sent:-3.3, LLM_sell:-12.0]",-0.150,43.58,0.600
+2026-01-22,ADA-USDT,0.3594,hold,"Neutral (score=0.0, signals=2)",0.150,41.73,0.400
+2026-01-22,BNB-USDT,888.06,sell,"SELL: score=-21.2 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,45.49,0.400
+2026-01-22,BTC-USDT,89559.67,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,43.54,0.600
+2026-01-22,DOGE-USDT,0.12437,hold,"Neutral (score=3.5, signals=3)",0.150,38.59,0.400
+2026-01-22,DOT-USDT,1.927,sell,"SELL: score=-14.9 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+6.2, Sent:+0.0, LLM_sell:-12.0, Vol:-3.3]",-0.000,42.63,0.600
+2026-01-22,ETH-USDT,2952.69,sell,"SELL: score=-12.3 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+5.7, Sent:+0.0, LLM_sell:-12.0, Vol:-0.2]",-0.000,39.46,0.600
+2026-01-22,LTC-USDT,68.19,sell,"SELL: score=-11.0 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+4.3, Sent:+3.3, LLM_sell:-12.0, Vol:-1.0]",0.150,32.53,0.800
+2026-01-22,SOL-USDT,128.47,sell,"SELL: score=-14.2 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+4.3, Sent:+0.0, LLM_sell:-12.0, Vol:-0.7]",-0.000,42.35,0.600
+2026-01-22,XRP-USDT,1.9236,sell,"SELL: score=-18.9 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+2.2, Sent:-3.3, LLM_sell:-12.0]",-0.150,42.02,0.600
+2026-01-23,ADA-USDT,0.3602,hold,"Neutral (score=-2.1, signals=2)",0.150,42.03,0.400
+2026-01-23,BNB-USDT,891.63,sell,"SELL: score=-23.4 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-5.5, LLM_sell:-12.0]",-0.250,46.73,0.600
+2026-01-23,BTC-USDT,89600.26,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,43.69,0.600
+2026-01-23,DOGE-USDT,0.12477,hold,"Neutral (score=0.7, signals=3)",0.150,39.11,0.400
+2026-01-23,DOT-USDT,1.926,sell,"SELL: score=-17.1 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+3.9, Sent:+0.0, LLM_sell:-12.0, Vol:-3.3]",-0.000,42.58,0.600
+2026-01-23,ETH-USDT,2956.41,sell,"SELL: score=-14.8 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+3.5, Sent:+0.0, LLM_sell:-12.0, Vol:-0.5]",-0.000,39.74,0.600
+2026-01-23,LTC-USDT,68.07,sell,"SELL: score=-11.7 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+2.6, Sent:+3.3, LLM_sell:-12.0]",0.150,32.35,0.800
+2026-01-23,SOL-USDT,127.43,sell,"SELL: score=-13.2 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+4.6, Sent:+0.0, LLM_sell:-12.0]",-0.000,41.29,0.600
+2026-01-23,XRP-USDT,1.9196,sell,"SELL: score=-19.7 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+1.4, Sent:-3.3, LLM_sell:-12.0]",-0.150,41.75,0.600
+2026-01-24,ADA-USDT,0.3583,hold,"Neutral (score=-5.9, signals=1)",0.000,41.48,0.400
+2026-01-24,BNB-USDT,887.17,sell,"SELL: score=-23.4 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-5.5, LLM_sell:-12.0]",-0.250,45.34,0.600
+2026-01-24,BTC-USDT,89225.34,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,42.57,0.600
+2026-01-24,DOGE-USDT,0.12423,hold,"Neutral (score=-3.7, signals=2)",0.000,38.64,0.400
+2026-01-24,DOT-USDT,1.93,sell,"SELL: score=-20.8 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+1.7, Sent:-3.3, LLM_sell:-12.0, Vol:-1.4]",-0.150,42.87,0.600
+2026-01-24,ETH-USDT,2953.22,sell,"SELL: score=-19.3 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+2.0, Sent:-3.3, LLM_sell:-12.0, Vol:-0.3]",-0.150,39.57,0.600
+2026-01-24,LTC-USDT,68.19,sell,"SELL: score=-16.9 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+0.7, Sent:+0.0, LLM_sell:-12.0]",-0.000,32.74,0.800
+2026-01-24,SOL-USDT,127.21,sell,"SELL: score=-14.4 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+3.3, Sent:+0.0, LLM_sell:-12.0]",-0.000,41.05,0.600
+2026-01-24,XRP-USDT,1.9143,sell,"SELL: score=-20.6 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+0.5, Sent:-3.3, LLM_sell:-12.0]",-0.150,41.37,0.600
+2026-01-25,ADA-USDT,0.3391,hold,"Neutral (score=2.0, signals=2)",0.050,36.32,0.400
+2026-01-25,BNB-USDT,866.02,sell,"SELL: score=-13.4 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+6.6, Sent:-2.2, LLM_sell:-12.0]",-0.100,39.36,0.600
+2026-01-25,BTC-USDT,86670.36,sell,"SELL: score=-12.6 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+7.3, Sent:-2.2, LLM_sell:-12.0]",-0.100,35.79,0.600
+2026-01-25,DOGE-USDT,0.11945,hold,"Neutral (score=4.4, signals=3)",0.200,34.68,0.600
+2026-01-25,DOT-USDT,1.823,sell,"SELL: score=-13.1 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+8.5, Sent:-2.2, LLM_sell:-12.0, Vol:-1.6]",-0.100,37.45,0.600
+2026-01-25,ETH-USDT,2816.89,sell,"SELL: score=-9.1 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+8.5, Sent:+1.1, LLM_sell:-12.0, Vol:-1.1]",0.050,33.11,0.800
+2026-01-25,LTC-USDT,67.3,sell,"SELL: score=-16.5 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+1.0, Sent:+0.0, LLM_sell:-12.0]",-0.000,31.30,0.800
+2026-01-25,SOL-USDT,118.85,sell,"SELL: score=-6.5 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+11.8, Sent:+1.1, LLM_sell:-12.0, Vol:-1.7]",0.050,33.31,0.800
+2026-01-25,XRP-USDT,1.8356,sell,"SELL: score=-13.2 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+6.7, Sent:-2.2, LLM_sell:-12.0]",-0.100,36.12,0.600
+2026-01-26,ADA-USDT,0.3521,sell,"SELL: score=-9.6 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+0.7, Sent:+0.0, Vol:-4.4]",0.000,41.62,0.400
+2026-01-26,BNB-USDT,879.41,sell,"SELL: score=-21.2 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,44.36,0.600
+2026-01-26,BTC-USDT,88347.08,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,42.28,0.600
+2026-01-26,DOGE-USDT,0.12236,hold,"Neutral (score=-4.8, signals=2)",0.000,38.79,0.400
+2026-01-26,DOT-USDT,1.875,sell,"SELL: score=-22.7 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+2.1, Sent:-3.3, LLM_sell:-12.0, Vol:-3.7]",-0.150,41.33,0.600
+2026-01-26,ETH-USDT,2930.35,sell,"SELL: score=-25.8 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0, Vol:-4.7]",-0.150,41.65,0.600
+2026-01-26,LTC-USDT,69.72,hold,"Neutral (score=-5.7, signals=2)",0.000,39.15,0.200
+2026-01-26,SOL-USDT,124.24,sell,"SELL: score=-24.7 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+1.9, Sent:-3.3, LLM_sell:-12.0, Vol:-5.5]",-0.150,41.03,0.600
+2026-01-26,XRP-USDT,1.9041,sell,"SELL: score=-22.3 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0, Vol:-1.2]",-0.150,42.91,0.600
+2026-01-27,ADA-USDT,0.3608,hold,"Neutral (score=-4.7, signals=2)",0.150,44.92,0.100
+2026-01-27,BNB-USDT,898.36,sell,"SELL: score=-9.3 [RSI_bias:-0.0, MACD_neg:-6.0, Sent:-3.3]",-0.150,50.58,0.200
+2026-01-27,BTC-USDT,89250.0,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,45.48,0.200
+2026-01-27,DOGE-USDT,0.12619,hold,"Neutral (score=-2.6, signals=2)",0.150,43.81,0.100
+2026-01-27,DOT-USDT,1.876,sell,"SELL: score=-20.7 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+0.4, Sent:-3.3, LLM_sell:-12.0]",-0.150,41.41,0.600
+2026-01-27,ETH-USDT,3026.77,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,47.75,0.200
+2026-01-27,LTC-USDT,70.03,hold,"Neutral (score=-5.8, signals=1)",0.000,40.09,0.200
+2026-01-27,SOL-USDT,127.19,hold,"Neutral (score=-5.7, signals=2)",0.150,44.80,0.400
+2026-01-27,XRP-USDT,1.9158,hold,"Neutral (score=-2.6, signals=2)",0.150,44.00,0.400
+2026-01-28,ADA-USDT,0.3583,hold,"Neutral (score=0.7, signals=2)",0.300,44.15,0.200
+2026-01-28,BNB-USDT,902.91,sell,"SELL: score=-9.3 [RSI_bias:-0.0, MACD_neg:-6.0, Sent:-3.3]",-0.150,51.96,0.200
+2026-01-28,BTC-USDT,89299.99,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,45.66,0.200
+2026-01-28,DOGE-USDT,0.125,hold,"Neutral (score=8.3, signals=2)",0.300,42.64,0.200
+2026-01-28,DOT-USDT,1.87,sell,"SELL: score=-21.1 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0]",-0.150,41.07,0.600
+2026-01-28,ETH-USDT,3010.78,sell,"SELL: score=-8.1 [RSI_bias:+0.1, MACD_neg:-6.0, Sent:-2.2]",-0.100,46.88,0.200
+2026-01-28,LTC-USDT,69.42,hold,"Neutral (score=-5.7, signals=2)",0.000,38.82,0.200
+2026-01-28,SOL-USDT,125.35,sell,"SELL: score=-23.4 [RSI_bias:+0.2, MACD_neg:-6.0, Sent:-3.3, LLM_sell:-12.0, Vol:-2.3]",-0.150,42.96,0.600
+2026-01-28,XRP-USDT,1.9111,hold,"Neutral (score=-2.5, signals=2)",0.150,43.64,0.400
+2026-01-29,ADA-USDT,0.3347,hold,"Neutral (score=-3.9, signals=2)",0.050,37.58,0.400
+2026-01-29,BNB-USDT,868.69,sell,"SELL: score=-17.3 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+2.7, Sent:-2.2, LLM_sell:-12.0]",-0.100,42.34,0.600
+2026-01-29,BTC-USDT,84650.16,sell,"SELL: score=-8.3 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+8.3, Sent:+1.1, LLM_sell:-12.0]",0.050,34.34,0.800
+2026-01-29,DOGE-USDT,0.11728,hold,"Neutral (score=-2.6, signals=2)",0.050,35.94,0.400
+2026-01-29,DOT-USDT,1.736,sell,"SELL: score=-9.7 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+7.4, Sent:+3.3, LLM_sell:-12.0, Vol:-2.8]",0.150,34.29,0.800
+2026-01-29,ETH-USDT,2822.59,sell,"SELL: score=-20.3 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+3.5, Sent:-2.2, LLM_sell:-12.0, Vol:-3.9]",-0.100,38.04,0.600
+2026-01-29,LTC-USDT,66.24,sell,"SELL: score=-18.9 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+0.9, Sent:-2.2, LLM_sell:-12.0]",-0.100,32.93,0.800
+2026-01-29,SOL-USDT,117.82,sell,"SELL: score=-19.7 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+5.5, Sent:-2.2, LLM_sell:-12.0, Vol:-5.3]",-0.100,36.36,0.600
+2026-01-29,XRP-USDT,1.8076,sell,"SELL: score=-14.1 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+6.0, Sent:-2.2, LLM_sell:-12.0, Vol:-0.2]",-0.100,36.52,0.600
+2026-01-30,ADA-USDT,0.3208,hold,"Neutral (score=15.8, signals=4)",0.300,34.34,0.600
+2026-01-30,BNB-USDT,858.81,sell,"SELL: score=-13.3 [RSI_bias:+0.2, MACD_neg:-6.0, BB_low:+4.4, Sent:+0.0, LLM_sell:-12.0]",-0.000,40.03,0.600
+2026-01-30,BTC-USDT,84260.49,sell,"SELL: score=-7.8 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+6.5, Sent:+3.3, LLM_sell:-12.0]",0.150,33.58,0.800
+2026-01-30,DOGE-USDT,0.11581,hold,"Neutral (score=14.8, signals=4)",0.300,34.82,0.600
+2026-01-30,DOT-USDT,1.69,sell,"SELL: score=-9.5 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+7.4, Sent:+3.3, LLM_sell:-12.0, Vol:-2.7]",0.150,32.31,0.800
+2026-01-30,ETH-USDT,2707.38,sell,"SELL: score=-11.8 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+7.3, Sent:+3.3, LLM_sell:-12.0, Vol:-4.9]",0.150,33.83,0.800
+2026-01-30,LTC-USDT,65.47,sell,"SELL: score=-15.5 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+2.0, Sent:+0.0, LLM_sell:-12.0]",-0.000,31.68,0.800
+2026-01-30,SOL-USDT,117.59,sell,"SELL: score=-19.6 [RSI_bias:+0.3, MACD_neg:-6.0, BB_low:+3.5, Sent:+0.0, LLM_sell:-12.0, Vol:-5.4]",-0.000,36.18,0.600
+2026-01-30,XRP-USDT,1.7352,sell,"SELL: score=-8.1 [RSI_bias:+0.4, MACD_neg:-6.0, BB_low:+9.6, Sent:+1.1, LLM_sell:-12.0, Vol:-1.2]",0.050,32.52,0.800
+2026-01-31,ADA-USDT,0.2936,hold,"Neutral (score=2.8, signals=3)",0.200,29.05,0.600
+2026-01-31,BNB-USDT,781.38,hold,"Neutral (score=1.2, signals=3)",0.150,27.43,0.800
+2026-01-31,BTC-USDT,78741.09,hold,"Neutral (score=-0.1, signals=3)",0.150,25.18,0.800
+2026-01-31,DOGE-USDT,0.10426,hold,"Neutral (score=1.9, signals=3)",0.200,27.54,0.600
+2026-01-31,DOT-USDT,1.547,sell,"SELL: score=-10.6 [RSI_oversold:+0.6, MACD_neg:-6.0, BB_low:+11.6, Sent:+1.1, LLM_sell:-12.0, Vol:-5.9]",0.050,27.09,0.800
+2026-01-31,ETH-USDT,2451.95,sell,"SELL: score=-10.0 [RSI_oversold:+0.6, MACD_neg:-6.0, BB_low:+14.0, Sent:+3.3, LLM_sell:-12.0, Vol:-9.9]",0.150,26.76,0.800
+2026-01-31,LTC-USDT,59.53,hold,"Neutral (score=-4.2, signals=3)",0.200,24.07,0.800
+2026-01-31,SOL-USDT,105.58,hold,HIGH RISK - no new trades (vol=0.053),0.035,28.21,0.800
+2026-01-31,XRP-USDT,1.6472,hold,"Neutral (score=-4.5, signals=3)",0.150,28.45,0.800
+2026-02-01,ADA-USDT,0.2858,hold,"Neutral (score=15.7, signals=4)",0.300,27.74,0.600
+2026-02-01,BNB-USDT,758.54,hold,"Neutral (score=25.3, signals=4)",0.300,24.94,0.800
+2026-02-01,BTC-USDT,76968.21,hold,"Neutral (score=25.4, signals=4)",0.300,23.17,0.800
+2026-02-01,DOGE-USDT,0.10426,hold,"Neutral (score=12.2, signals=4)",0.300,27.54,0.600
+2026-02-01,DOT-USDT,1.495,sell,"SELL: score=-9.1 [RSI_oversold:+0.9, MACD_neg:-6.0, BB_low:+9.9, Sent:+3.3, LLM_sell:-12.0, Vol:-5.2]",0.150,25.48,0.800
+2026-02-01,ETH-USDT,2270.15,hold,HIGH RISK - no new trades (vol=0.053),0.210,23.07,0.800
+2026-02-01,LTC-USDT,58.49,hold,"Neutral (score=20.0, signals=4)",0.300,23.03,0.800
+2026-02-01,SOL-USDT,100.79,hold,HIGH RISK - no new trades (vol=0.051),0.105,25.77,0.800
+2026-02-01,XRP-USDT,1.5908,hold,"Neutral (score=-4.6, signals=3)",0.150,26.18,0.800
+2026-02-02,ADA-USDT,0.2991,hold,"Neutral (score=8.8, signals=4)",0.300,33.29,0.600
+2026-02-02,BNB-USDT,773.94,sell,"SELL: score=-10.7 [RSI_oversold:+0.1, MACD_neg:-6.0, BB_low:+8.7, Sent:+3.3, LLM_sell:-12.0, Vol:-4.7]",0.150,29.58,0.800
+2026-02-02,BTC-USDT,78738.61,buy,"BUY: score=16.2, signals=4 [RSI_oversold:+0.2, MACD_neg:-6.0, BB_low:+5.9, Sent:+5.5, LLM_buy:+12.0, Vol:-1.3]",0.250,29.24,0.800
+2026-02-02,DOGE-USDT,0.10792,hold,"Neutral (score=6.5, signals=4)",0.300,32.71,0.600
+2026-02-02,DOT-USDT,1.543,sell,"SELL: score=-14.9 [RSI_oversold:+0.1, MACD_neg:-6.0, BB_low:+5.3, Sent:+3.3, LLM_sell:-12.0, Vol:-5.6]",0.150,29.64,0.800
+2026-02-02,ETH-USDT,2347.02,hold,HIGH RISK - no new trades (vol=0.051),0.105,27.62,0.800
+2026-02-02,LTC-USDT,60.02,sell,"SELL: score=-12.6 [RSI_oversold:+0.4, MACD_neg:-6.0, BB_low:+5.7, Sent:+3.3, LLM_sell:-12.0, Vol:-3.9]",0.150,27.97,0.800
+2026-02-02,SOL-USDT,104.55,sell,"SELL: score=-18.6 [RSI_bias:+0.5, MACD_neg:-6.0, BB_low:+5.2, Sent:+3.3, LLM_sell:-12.0, Vol:-9.6]",0.150,30.83,0.800
+2026-02-02,XRP-USDT,1.6198,sell,"SELL: score=-7.8 [RSI_oversold:+0.1, MACD_neg:-6.0, BB_low:+6.8, Sent:+3.3, LLM_sell:-12.0]",0.150,29.30,0.800
+2026-02-03,ADA-USDT,0.2917,hold,"Neutral (score=11.8, signals=4)",0.300,31.83,0.600
+2026-02-03,BNB-USDT,754.78,sell,"SELL: score=-8.2 [RSI_oversold:+0.5, MACD_neg:-6.0, BB_low:+8.7, Sent:+3.3, LLM_sell:-12.0, Vol:-2.8]",0.150,27.32,0.800
+2026-02-03,BTC-USDT,75770.21,sell,"SELL: score=-6.0 [RSI_oversold:+0.9, MACD_neg:-6.0, BB_low:+8.4, Sent:+3.3, LLM_sell:-12.0, Vol:-0.6]",0.150,25.59,0.800
+2026-02-03,DOGE-USDT,0.10602,hold,"Neutral (score=9.7, signals=4)",0.300,31.45,0.600
+2026-02-03,DOT-USDT,1.5,sell,"SELL: score=-13.5 [RSI_oversold:+0.4, MACD_neg:-6.0, BB_low:+5.5, Sent:+3.3, LLM_sell:-12.0, Vol:-4.7]",0.150,28.13,0.800
+2026-02-03,ETH-USDT,2233.72,sell,"SELL: score=-12.2 [RSI_oversold:+1.0, MACD_neg:-6.0, BB_low:+8.3, Sent:+3.3, LLM_sell:-12.0, Vol:-6.7]",0.150,25.25,0.800
+2026-02-03,LTC-USDT,59.48,sell,"SELL: score=-12.5 [RSI_oversold:+0.5, MACD_neg:-6.0, BB_low:+5.0, Sent:+3.3, LLM_sell:-12.0, Vol:-3.4]",0.150,27.30,0.800
+2026-02-03,SOL-USDT,97.89,sell,"SELL: score=-14.3 [RSI_oversold:+0.5, MACD_neg:-6.0, BB_low:+7.9, Sent:+3.3, LLM_sell:-12.0, Vol:-8.1]",0.150,27.28,0.800
+2026-02-03,XRP-USDT,1.5791,sell,"SELL: score=-7.0 [RSI_oversold:+0.5, MACD_neg:-6.0, BB_low:+7.2, Sent:+3.3, LLM_sell:-12.0]",0.150,27.54,0.800
+2026-02-04,ADA-USDT,0.2864,hold,"Neutral (score=11.7, signals=4)",0.300,30.78,0.600
+2026-02-04,BNB-USDT,697.27,hold,"Neutral (score=-2.8, signals=3)",0.200,21.89,0.800
+2026-02-04,BTC-USDT,73165.83,hold,"Neutral (score=23.3, signals=4)",0.300,22.89,0.800
+2026-02-04,DOGE-USDT,0.10383,hold,"Neutral (score=10.5, signals=4)",0.300,30.02,0.600
+2026-02-04,DOT-USDT,1.461,sell,"SELL: score=-12.7 [RSI_oversold:+0.6, MACD_neg:-6.0, BB_low:+5.2, Sent:+3.3, LLM_sell:-12.0, Vol:-3.8]",0.150,26.79,0.800
+2026-02-04,ETH-USDT,2148.26,hold,"Neutral (score=16.4, signals=4)",0.300,23.60,0.800
+2026-02-04,LTC-USDT,58.89,sell,"SELL: score=-13.3 [RSI_oversold:+0.7, MACD_neg:-6.0, BB_low:+4.0, Sent:+3.3, LLM_sell:-12.0, Vol:-3.3]",0.150,26.56,0.800
+2026-02-04,SOL-USDT,92.12,hold,"Neutral (score=14.7, signals=4)",0.300,24.64,0.800
+2026-02-04,XRP-USDT,1.512,hold,"Neutral (score=22.1, signals=4)",0.300,24.89,0.800
+2026-02-05,ADA-USDT,0.2455,hold,HIGH RISK - no new trades (vol=0.059),0.245,24.18,0.600
+2026-02-05,BNB-USDT,608.3,hold,HIGH RISK - no new trades (vol=0.051),0.140,16.45,0.800
+2026-02-05,BTC-USDT,62909.86,hold,HIGH RISK - no new trades (vol=0.052),0.140,15.82,0.800
+2026-02-05,DOGE-USDT,0.08849,hold,HIGH RISK - no new trades (vol=0.063),0.245,22.36,0.600
+2026-02-05,DOT-USDT,1.248,hold,HIGH RISK - no new trades (vol=0.056),0.140,20.94,0.800
+2026-02-05,ETH-USDT,1826.83,hold,HIGH RISK - no new trades (vol=0.057),0.140,18.68,0.800
+2026-02-05,LTC-USDT,50.79,hold,HIGH RISK - no new trades (vol=0.057),0.140,18.93,0.800
+2026-02-05,SOL-USDT,78.35,hold,HIGH RISK - no new trades (vol=0.061),0.140,19.73,0.800
+2026-02-05,XRP-USDT,1.2146,hold,HIGH RISK - no new trades (vol=0.067),0.140,17.05,0.800
+2026-02-06,ADA-USDT,0.2762,sell,EXTREME RISK - force sell,0.000,35.38,0.400
+2026-02-06,BNB-USDT,657.21,sell,EXTREME RISK - force sell,0.105,27.17,0.800
+2026-02-06,BTC-USDT,70580.26,sell,EXTREME RISK - force sell,0.105,32.59,0.800
+2026-02-06,DOGE-USDT,0.09848,sell,EXTREME RISK - force sell,0.210,34.15,0.600
+2026-02-06,DOT-USDT,1.368,sell,EXTREME RISK - force sell,0.105,30.19,0.800
+2026-02-06,ETH-USDT,2063.38,sell,EXTREME RISK - force sell,0.105,30.22,0.800
+2026-02-06,LTC-USDT,55.02,sell,EXTREME RISK - force sell,0.105,30.21,0.800
+2026-02-06,SOL-USDT,87.46,sell,EXTREME RISK - force sell,0.105,29.71,0.800
+2026-02-06,XRP-USDT,1.4698,sell,EXTREME RISK - force sell,-0.000,35.75,0.600
+2026-02-07,ADA-USDT,0.2721,sell,EXTREME RISK - force sell,0.105,34.65,0.600
+2026-02-07,BNB-USDT,647.0,hold,HIGH RISK - no new trades (vol=0.066),0.105,26.41,0.800
+2026-02-07,BTC-USDT,69289.38,sell,EXTREME RISK - force sell,0.105,31.46,0.800
+2026-02-07,DOGE-USDT,0.09823,sell,EXTREME RISK - force sell,0.105,34.01,0.600
+2026-02-07,DOT-USDT,1.372,sell,EXTREME RISK - force sell,-0.000,30.48,0.800
+2026-02-07,ETH-USDT,2087.08,sell,EXTREME RISK - force sell,-0.000,31.28,0.800
+2026-02-07,LTC-USDT,55.19,hold,HIGH RISK - no new trades (vol=0.066),0.105,30.62,0.800
+2026-02-07,SOL-USDT,87.59,sell,EXTREME RISK - force sell,0.105,29.85,0.800
+2026-02-07,XRP-USDT,1.4231,sell,EXTREME RISK - force sell,0.105,34.23,0.800
+2026-02-08,ADA-USDT,0.2701,sell,EXTREME RISK - force sell,0.105,34.27,0.600
+2026-02-08,BNB-USDT,639.93,hold,HIGH RISK - no new trades (vol=0.067),0.105,25.87,0.800
+2026-02-08,BTC-USDT,70330.38,sell,EXTREME RISK - force sell,-0.000,33.47,0.800
+2026-02-08,DOGE-USDT,0.09663,sell,EXTREME RISK - force sell,0.105,33.08,0.600
+2026-02-08,DOT-USDT,1.337,sell,EXTREME RISK - force sell,-0.000,29.33,0.800
+2026-02-08,ETH-USDT,2089.74,sell,EXTREME RISK - force sell,-0.000,31.40,0.800
+2026-02-08,LTC-USDT,54.53,hold,HIGH RISK - no new trades (vol=0.066),-0.000,29.88,0.800
+2026-02-08,SOL-USDT,86.99,sell,EXTREME RISK - force sell,-0.000,29.56,0.800
+2026-02-08,XRP-USDT,1.4308,sell,EXTREME RISK - force sell,-0.000,34.72,0.800
+2026-02-09,ADA-USDT,0.2699,sell,EXTREME RISK - force sell,0.105,34.23,0.600
+2026-02-09,BNB-USDT,636.39,hold,HIGH RISK - no new trades (vol=0.064),0.105,25.58,0.800
+2026-02-09,BTC-USDT,70138.0,sell,EXTREME RISK - force sell,-0.000,33.28,0.800
+2026-02-09,DOGE-USDT,0.09611,sell,EXTREME RISK - force sell,0.105,32.77,0.600
+2026-02-09,DOT-USDT,1.32,sell,EXTREME RISK - force sell,-0.000,28.76,0.800
+2026-02-09,ETH-USDT,2105.02,sell,EXTREME RISK - force sell,0.210,32.16,0.600
+2026-02-09,LTC-USDT,54.45,hold,HIGH RISK - no new trades (vol=0.065),-0.000,29.78,0.800
+2026-02-09,SOL-USDT,86.77,sell,EXTREME RISK - force sell,-0.000,29.46,0.800
+2026-02-09,XRP-USDT,1.437,sell,EXTREME RISK - force sell,-0.105,35.14,0.600
+2026-02-10,ADA-USDT,0.262,sell,EXTREME RISK - force sell,0.105,32.62,0.600
+2026-02-10,BNB-USDT,619.85,hold,HIGH RISK - no new trades (vol=0.064),0.210,24.25,0.800
+2026-02-10,BTC-USDT,68841.29,sell,EXTREME RISK - force sell,-0.000,31.93,0.800
+2026-02-10,DOGE-USDT,0.09277,sell,EXTREME RISK - force sell,0.105,30.75,0.600
+2026-02-10,DOT-USDT,1.283,sell,EXTREME RISK - force sell,-0.000,27.50,0.800
+2026-02-10,ETH-USDT,2022.67,sell,EXTREME RISK - force sell,-0.000,30.21,0.800
+2026-02-10,LTC-USDT,53.38,hold,HIGH RISK - no new trades (vol=0.065),-0.000,28.48,0.800
+2026-02-10,SOL-USDT,82.99,sell,EXTREME RISK - force sell,-0.000,27.57,0.800
+2026-02-10,XRP-USDT,1.3999,sell,EXTREME RISK - force sell,-0.000,33.74,0.800
+2026-02-11,ADA-USDT,0.2559,sell,EXTREME RISK - force sell,0.105,31.39,0.600
+2026-02-11,BNB-USDT,608.11,hold,HIGH RISK - no new trades (vol=0.061),0.105,23.32,0.800
+2026-02-11,BTC-USDT,67082.52,sell,EXTREME RISK - force sell,-0.000,30.15,0.800
+2026-02-11,DOGE-USDT,0.09112,sell,EXTREME RISK - force sell,0.105,29.78,0.600
+2026-02-11,DOT-USDT,1.256,sell,EXTREME RISK - force sell,-0.000,26.59,0.800
+2026-02-11,ETH-USDT,1941.18,sell,EXTREME RISK - force sell,-0.000,28.38,0.800
+2026-02-11,LTC-USDT,52.32,hold,HIGH RISK - no new trades (vol=0.065),-0.000,27.21,0.800
+2026-02-11,SOL-USDT,79.3,sell,EXTREME RISK - force sell,-0.000,25.83,0.800
+2026-02-11,XRP-USDT,1.3697,sell,EXTREME RISK - force sell,-0.070,32.60,0.800
+2026-02-12,ADA-USDT,0.2643,hold,HIGH RISK - no new trades (vol=0.054),0.000,35.02,0.400
+2026-02-12,BNB-USDT,614.29,sell,"SELL: score=-16.9 [RSI_oversold:+1.0, MACD_neg:-6.0, Sent:+3.3, LLM_sell:-12.0, Vol:-3.2]",0.150,24.95,0.800
+2026-02-12,BTC-USDT,66272.17,hold,HIGH RISK - no new trades (vol=0.052),-0.000,29.33,0.800
+2026-02-12,DOGE-USDT,0.093,hold,"Neutral (score=-4.4, signals=3)",0.150,32.41,0.600
+2026-02-12,DOT-USDT,1.283,sell,"SELL: score=-24.8 [RSI_oversold:+0.2, MACD_neg:-6.0, Sent:+0.0, LLM_sell:-12.0, Vol:-7.0]",-0.000,29.12,0.800
+2026-02-12,ETH-USDT,1947.85,hold,HIGH RISK - no new trades (vol=0.057),-0.000,28.76,0.800
+2026-02-12,LTC-USDT,53.15,sell,"SELL: score=-21.0 [RSI_oversold:+0.0, MACD_neg:-6.0, Sent:+0.0, LLM_sell:-12.0, Vol:-3.0]",-0.000,29.85,0.800
+2026-02-12,SOL-USDT,78.4,hold,HIGH RISK - no new trades (vol=0.054),-0.000,25.41,0.800
+2026-02-12,XRP-USDT,1.3635,sell,EXTREME RISK - force sell,-0.000,32.35,0.800
+2026-02-13,ADA-USDT,0.2632,hold,"Neutral (score=5.2, signals=3)",0.150,34.76,0.600
+2026-02-13,BNB-USDT,599.2,sell,"SELL: score=-13.4 [RSI_oversold:+1.3, MACD_neg:-6.0, Sent:+3.3, LLM_sell:-12.0]",0.150,23.63,0.800
+2026-02-13,BTC-USDT,67125.72,sell,"SELL: score=-17.6 [RSI_bias:+0.4, MACD_neg:-6.0, Sent:+0.0, LLM_sell:-12.0]",-0.000,31.43,0.800
+2026-02-13,DOGE-USDT,0.09354,hold,"Neutral (score=5.2, signals=3)",0.150,33.18,0.600
+2026-02-13,DOT-USDT,1.276,hold,"Neutral (score=-2.5, signals=3)",0.150,28.84,0.600
+2026-02-13,ETH-USDT,1962.32,sell,"SELL: score=-17.9 [RSI_oversold:+0.1, MACD_neg:-6.0, Sent:+0.0, LLM_sell:-12.0]",-0.000,29.63,0.800
+2026-02-13,LTC-USDT,53.43,hold,"Neutral (score=-2.2, signals=3)",0.150,30.76,0.600
+2026-02-13,SOL-USDT,80.09,sell,"SELL: score=-17.6 [RSI_oversold:+0.4, MACD_neg:-6.0, Sent:+0.0, LLM_sell:-12.0]",-0.000,27.79,0.800
+2026-02-13,XRP-USDT,1.3629,hold,"Neutral (score=-2.3, signals=3)",0.150,32.33,0.600
